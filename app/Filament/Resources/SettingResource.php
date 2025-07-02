@@ -25,20 +25,12 @@ class SettingResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-cog';
     protected static ?string $activeNavigationIcon = 'heroicon-s-cog';
+    protected static ?string $navigationGroup = 'Sistem';
 
-    public static function getNavigationLabel(): string
-    {
-        return 'Pengaturan';
-    }
 
     public static function shouldRegisterNavigation(): bool
     {
         return true;
-    }
-
-    public static function getNavigationGroup(): ?string
-    {
-        return 'Sistem';
     }
 
     public static function form(Form $form): Form

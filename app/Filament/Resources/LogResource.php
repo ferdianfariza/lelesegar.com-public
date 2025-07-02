@@ -21,7 +21,7 @@ class LogResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-inbox-stack';
     protected static ?string $activeNavigationIcon = 'heroicon-s-inbox-stack';
-    protected static ?string $navigationGroup = 'General';
+    protected static ?string $navigationGroup = 'Sistem';
 
     public static function form(Form $form): Form
     {
